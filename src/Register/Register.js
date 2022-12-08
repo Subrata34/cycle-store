@@ -9,6 +9,7 @@ const Register = () => {
         <TextField 
         type="name" 
         label="Name" 
+        style={{width:''}}
         required
         variant="standard" />
         <br/>
@@ -20,11 +21,13 @@ const Register = () => {
         <TextField 
         type="password" 
         label="Password" 
+        required
         variant="standard" />
         <br />
         <TextField 
         type="password" 
         label="Re-type Password" 
+        required
         variant="standard" />
         <br />
         <input type="submit" label="Submit" />
