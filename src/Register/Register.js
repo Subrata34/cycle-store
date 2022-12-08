@@ -11,18 +11,22 @@ const Register = () => {
         label="Name" 
         required
         variant="standard" />
+        <br/>
         <TextField 
         type="email" 
         label="Email" 
         variant="standard" />
+        <br/>
         <TextField 
         type="password" 
         label="Password" 
         variant="standard" />
+        <br />
         <TextField 
         type="password" 
         label="Re-type Password" 
         variant="standard" />
+        <br />
         <input type="submit" label="Submit" />
 
       </form>
