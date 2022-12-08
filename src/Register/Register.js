@@ -1,3 +1,4 @@
+import { TextField } from "@mui/material";
 import React from "react";
 
 const Register = () => {
@@ -8,6 +9,7 @@ const Register = () => {
         <TextField 
         type="name" 
         label="Name" 
+        required
         variant="standard" />
         <TextField 
         type="email" 
@@ -21,6 +23,7 @@ const Register = () => {
         type="password" 
         label="Re-type Password" 
         variant="standard" />
+        <input type="submit" label="Submit" />
 
       </form>
     </div>
