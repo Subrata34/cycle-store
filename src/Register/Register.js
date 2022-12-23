@@ -9,7 +9,7 @@ const Register = () => {
         <TextField 
         type="name" 
         label="Name" 
-        style={{width:''}}
+        style={{borderRadius:'10px'}}
         required
         variant="standard" />
         <br/>
