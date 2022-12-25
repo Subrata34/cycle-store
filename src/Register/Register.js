@@ -1,4 +1,4 @@
-import { TextField } from "@mui/material";
+import { Button, TextField } from "@mui/material";
 import React from "react";
 
 const Register = () => {
@@ -30,7 +30,8 @@ const Register = () => {
         required
         variant="standard" />
         <br />
-        <input type="submit" label="Submit" />
+        <br />
+        <Button variant="contained" style={{paddingLeft:'80px',paddingRight:'80px'}}>Submit</Button>
 
       </form>
     </div>
