@@ -11,10 +11,10 @@ const Header = () => {
         <h1 style={{width:'10px'}}>Cycle store</h1>
         </div>
         <div>
-            <Link style={{margin:'20px',textDecorationLine:'none'}} >Home</Link>
-            <Link style={{margin:'20px',textDecorationLine:'none'}} >Buy</Link>
-            <Link style={{margin:'20px',textDecorationLine:'none'}} >cycle</Link>
-            <Link style={{margin:'20px',textDecorationLine:'none'}} >serviceing </Link>
+            <Link to='/home' style={{margin:'20px',textDecorationLine:'none'}} >Home</Link>
+            <Link to='/buy' style={{margin:'20px',textDecorationLine:'none'}} >Buy</Link>
+            <Link to='/cycle' style={{margin:'20px',textDecorationLine:'none'}} >cycle</Link>
+            <Link to='/serviceing' style={{margin:'20px',textDecorationLine:'none'}} >serviceing </Link>
             <Link style={{margin:'20px',textDecorationLine:'none'}} >Pre-Order</Link>
             
         </div>
